@@ -1,0 +1,65 @@
+09:50:50 **** Build of configuration Default for project esp-idf-template ****
+make flash 
+Flashing binaries to serial port /dev/ttyUSB0 (app at offset 0x10000)...
+esptool.py v2.0
+Connecting........_
+Chip is ESP32D0WDQ6 (revision 0)
+Uploading stub...
+Running stub...
+Stub running...
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Flash params set to 0x0220
+
+Writing at 0x00001000... (100 %)
+Wrote 16384 bytes at 0x00001000 in 1.5 seconds (88.2 kbit/s)...
+Hash of data verified.
+
+Writing at 0x00010000... (2 %)
+Writing at 0x00014000... (5 %)
+Writing at 0x00018000... (8 %)
+Writing at 0x0001c000... (11 %)
+Writing at 0x00020000... (13 %)
+Writing at 0x00024000... (16 %)
+Writing at 0x00028000... (19 %)
+Writing at 0x0002c000... (22 %)
+Writing at 0x00030000... (25 %)
+Writing at 0x00034000... (27 %)
+Writing at 0x00038000... (30 %)
+Writing at 0x0003c000... (33 %)
+Writing at 0x00040000... (36 %)
+Writing at 0x00044000... (38 %)
+Writing at 0x00048000... (41 %)
+Writing at 0x0004c000... (44 %)
+Writing at 0x00050000... (47 %)
+Writing at 0x00054000... (50 %)
+Writing at 0x00058000... (52 %)
+Writing at 0x0005c000... (55 %)
+Writing at 0x00060000... (58 %)
+Writing at 0x00064000... (61 %)
+Writing at 0x00068000... (63 %)
+Writing at 0x0006c000... (66 %)
+Writing at 0x00070000... (69 %)
+Writing at 0x00074000... (72 %)
+Writing at 0x00078000... (75 %)
+Writing at 0x0007c000... (77 %)
+Writing at 0x00080000... (80 %)
+Writing at 0x00084000... (83 %)
+Writing at 0x00088000... (86 %)
+Writing at 0x0008c000... (88 %)
+Writing at 0x00090000... (91 %)
+Writing at 0x00094000... (94 %)
+Writing at 0x00098000... (97 %)
+Writing at 0x0009c000... (100 %)
+Wrote 589824 bytes at 0x00010000 in 52.5 seconds (89.8 kbit/s)...
+Hash of data verified.
+
+Writing at 0x00008000... (100 %)
+Wrote 16384 bytes at 0x00008000 in 1.4 seconds (90.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting...
+
+09:51:51 Build Finished (took 1m:842ms)
+

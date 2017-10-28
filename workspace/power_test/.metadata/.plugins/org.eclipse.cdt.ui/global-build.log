@@ -1,0 +1,46 @@
+15:01:20 **** Build of configuration Default for project power_save ****
+make flash 
+Flashing binaries to serial port /dev/ttyUSB0 (app at offset 0x10000)...
+esptool.py v2.1
+Connecting........__
+Chip is ESP32D0WDQ6 (revision 0)
+Uploading stub...
+Running stub...
+Stub running...
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Flash params set to 0x0220
+Compressed 17760 bytes to 10468...
+
+Writing at 0x00001000... (100 %)
+Wrote 17760 bytes (10468 compressed) at 0x00001000 in 0.9 seconds (effective 153.1 kbit/s)...
+Hash of data verified.
+Compressed 416864 bytes to 265427...
+
+Writing at 0x00010000... (5 %)
+Writing at 0x00014000... (11 %)
+Writing at 0x00018000... (17 %)
+Writing at 0x0001c000... (23 %)
+Writing at 0x00020000... (29 %)
+Writing at 0x00024000... (35 %)
+Writing at 0x00028000... (41 %)
+Writing at 0x0002c000... (47 %)
+Writing at 0x00030000... (52 %)
+Writing at 0x00034000... (58 %)
+Writing at 0x00038000... (64 %)
+Writing at 0x0003c000... (70 %)
+Writing at 0x00040000... (76 %)
+Writing at 0x00044000... (82 %)
+Writing at 0x00048000... (88 %)
+Writing at 0x0004c000... (94 %)
+Writing at 0x00050000... (100 %)
+Wrote 416864 bytes (265427 compressed) at 0x00010000 in 23.6 seconds (effective 141.3 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 82...
+
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (82 compressed) at 0x00008000 in 0.0 seconds (effective 1640.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting...

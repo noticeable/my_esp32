@@ -1,0 +1,56 @@
+10:03:32 **** Build of configuration Default for project wifi_ap ****
+make flash 
+CC main.o
+/home/li/esp32/workspace/wifi_ap/wifi_ap/main/./main.c: In function 'app_main':
+/home/li/esp32/workspace/wifi_ap/wifi_ap/main/./main.c:120:12: warning: unused variable 'tmp' [-Wunused-variable]
+  esp_err_t tmp =  esp_wifi_set_config(WIFI_IF_AP, &ap_config);
+            ^
+AR libmain.a
+LD wifi_ap.elf
+esptool.py v2.0
+Flashing binaries to serial port /dev/ttyUSB0 (app at offset 0x10000)...
+esptool.py v2.0
+Connecting........_
+Chip is ESP32D0WDQ6 (revision 0)
+Uploading stub...
+Running stub...
+Stub running...
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Flash params set to 0x0220
+Compressed 15792 bytes to 9192...
+
+Writing at 0x00001000... (100 %)
+Wrote 15792 bytes (9192 compressed) at 0x00001000 in 0.8 seconds (effective 153.4 kbit/s)...
+Hash of data verified.
+Compressed 472848 bytes to 261765...
+
+Writing at 0x00010000... (6 %)
+Writing at 0x00014000... (12 %)
+Writing at 0x00018000... (18 %)
+Writing at 0x0001c000... (25 %)
+Writing at 0x00020000... (31 %)
+Writing at 0x00024000... (37 %)
+Writing at 0x00028000... (43 %)
+Writing at 0x0002c000... (50 %)
+Writing at 0x00030000... (56 %)
+Writing at 0x00034000... (62 %)
+Writing at 0x00038000... (68 %)
+Writing at 0x0003c000... (75 %)
+Writing at 0x00040000... (81 %)
+Writing at 0x00044000... (87 %)
+Writing at 0x00048000... (93 %)
+Writing at 0x0004c000... (100 %)
+Wrote 472848 bytes (261765 compressed) at 0x00010000 in 23.3 seconds (effective 162.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 82...
+
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (82 compressed) at 0x00008000 in 0.0 seconds (effective 2009.1 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting...
+
+10:04:05 Build Finished (took 33s.440ms)
+

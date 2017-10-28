@@ -1,0 +1,4 @@
+11:20:56 **** Build of configuration Default for project esp-idf-template ****
+make all 
+To flash all build output, run 'make flash' or:
+python /home/li/esp32/esp-idf/components/esptool_py/esptool/esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 115200 --before default_reset --after hard_reset write_flash -u --flash_mode dio --flash_freq 40m --flash_size detect 0x1000 /home/li/esp32/workspace/template/esp-idf-template/build/bootloader/bootloader.bin 0x10000 /home/li/esp32/workspace/template/esp-idf-template/build/app-template.bin 0x8000 /home/li/esp32/workspace/template/esp-idf-template/build/partitions_singleapp.bin

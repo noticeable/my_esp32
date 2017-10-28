@@ -1,0 +1,51 @@
+16:10:45 **** Build of configuration Default for project smart_config ****
+make flash 
+Flashing binaries to serial port /dev/ttyUSB0 (app at offset 0x10000)...
+esptool.py v2.1
+Connecting........____
+Chip is ESP32D0WDQ6 (revision 0)
+Uploading stub...
+Running stub...
+Stub running...
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Flash params set to 0x0220
+Compressed 17760 bytes to 10466...
+
+Writing at 0x00001000... (100 %)
+Wrote 17760 bytes (10466 compressed) at 0x00001000 in 0.9 seconds (effective 151.9 kbit/s)...
+Hash of data verified.
+Compressed 461632 bytes to 296061...
+
+Writing at 0x00010000... (5 %)
+Writing at 0x00014000... (10 %)
+Writing at 0x00018000... (15 %)
+Writing at 0x0001c000... (21 %)
+Writing at 0x00020000... (26 %)
+Writing at 0x00024000... (31 %)
+Writing at 0x00028000... (36 %)
+Writing at 0x0002c000... (42 %)
+Writing at 0x00030000... (47 %)
+Writing at 0x00034000... (52 %)
+Writing at 0x00038000... (57 %)
+Writing at 0x0003c000... (63 %)
+Writing at 0x00040000... (68 %)
+Writing at 0x00044000... (73 %)
+Writing at 0x00048000... (78 %)
+Writing at 0x0004c000... (84 %)
+Writing at 0x00050000... (89 %)
+Writing at 0x00054000... (94 %)
+Writing at 0x00058000... (100 %)
+Wrote 461632 bytes (296061 compressed) at 0x00010000 in 26.2 seconds (effective 140.7 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 82...
+
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (82 compressed) at 0x00008000 in 0.0 seconds (effective 1499.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting...
+
+16:11:24 Build Finished (took 38s.947ms)
+

@@ -1,0 +1,25 @@
+!SESSION 2017-09-27 15:46:49.136 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-27 15:48:41.102
+!MESSAGE Indexed 'smart_config' (1 sources, 1 headers) in 3.58 sec: 21 declarations; 85 references; 13 unresolved inclusions; 0 syntax errors; 36 unresolved names (25%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-27 15:53:18.707
+!MESSAGE Indexed 'smart_config' (1 sources, 1 headers) in 2.07 sec: 21 declarations; 85 references; 13 unresolved inclusions; 0 syntax errors; 36 unresolved names (25%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-27 15:54:41.412
+!MESSAGE Indexed 'smart_config' (1 sources, 13 headers) in 4.28 sec: 800 declarations; 447 references; 33 unresolved inclusions; 0 syntax errors; 115 unresolved names (8.4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-27 15:55:28.618
+!MESSAGE Indexed 'smart_config' (1 sources, 13 headers) in 3.47 sec: 800 declarations; 447 references; 33 unresolved inclusions; 0 syntax errors; 115 unresolved names (8.4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-27 15:56:57.074
+!MESSAGE Indexed 'smart_config' (1 sources, 87 headers) in 7.16 sec: 4,407 declarations; 4,154 references; 25 unresolved inclusions; 2 syntax errors; 99 unresolved names (1.1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-27 15:57:32.973
+!MESSAGE Indexed 'smart_config' (1 sources, 88 headers) in 5.41 sec: 4,544 declarations; 4,236 references; 25 unresolved inclusions; 2 syntax errors; 105 unresolved names (1.2%)

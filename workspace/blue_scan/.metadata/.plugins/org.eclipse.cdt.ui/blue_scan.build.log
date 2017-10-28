@@ -1,0 +1,145 @@
+12:58:52 **** Build of configuration Default for project blue_scan ****
+make flash 
+GENCONFIG
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:16:warning: symbol value '' invalid for LOG_BOOTLOADER_LEVEL_NONE
+*
+* Restart config...
+*
+*
+* Bootloader config
+*
+Bootloader log verbosity
+  1. No output (LOG_BOOTLOADER_LEVEL_NONE) (NEW)
+  2. Error (LOG_BOOTLOADER_LEVEL_ERROR) (NEW)
+> 3. Warning (LOG_BOOTLOADER_LEVEL_WARN)
+  4. Info (LOG_BOOTLOADER_LEVEL_INFO) (NEW)
+  5. Debug (LOG_BOOTLOADER_LEVEL_DEBUG) (NEW)
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:17:warning: symbol value '' invalid for LOG_BOOTLOADER_LEVEL_ERROR
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:19:warning: symbol value '' invalid for LOG_BOOTLOADER_LEVEL_INFO
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:20:warning: symbol value '' invalid for LOG_BOOTLOADER_LEVEL_DEBUG
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:21:warning: symbol value '' invalid for LOG_BOOTLOADER_LEVEL_VERBOSE
+  6. Verbose (LOG_BOOTLOADER_LEVEL_VERBOSE) (NEW)
+choice[1-6?]: aborted!
+
+Console input/output is redirected. Run 'make oldconfig' to update configuration.
+
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:27:warning: symbol value '' invalid for SECURE_BOOT_ENABLED
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:28:warning: symbol value '' invalid for FLASH_ENCRYPTION_ENABLED
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:35:warning: symbol value '' invalid for ESPTOOLPY_BAUD_230400B
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:36:warning: symbol value '' invalid for ESPTOOLPY_BAUD_921600B
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:37:warning: symbol value '' invalid for ESPTOOLPY_BAUD_2MB
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:38:warning: symbol value '' invalid for ESPTOOLPY_BAUD_OTHER
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:41:warning: symbol value '' invalid for ESPTOOLPY_COMPRESSED
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:42:warning: symbol value '' invalid for FLASHMODE_QIO
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:43:warning: symbol value '' invalid for FLASHMODE_QOUT
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:45:warning: symbol value '' invalid for FLASHMODE_DOUT
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:47:warning: symbol value '' invalid for ESPTOOLPY_FLASHFREQ_80M
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:49:warning: symbol value '' invalid for ESPTOOLPY_FLASHFREQ_26M
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:50:warning: symbol value '' invalid for ESPTOOLPY_FLASHFREQ_20M
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:52:warning: symbol value '' invalid for ESPTOOLPY_FLASHSIZE_1MB
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:54:warning: symbol value '' invalid for ESPTOOLPY_FLASHSIZE_4MB
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:55:warning: symbol value '' invalid for ESPTOOLPY_FLASHSIZE_8MB
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:56:warning: symbol value '' invalid for ESPTOOLPY_FLASHSIZE_16MB
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:60:warning: symbol value '' invalid for ESPTOOLPY_BEFORE_NORESET
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:63:warning: symbol value '' invalid for ESPTOOLPY_AFTER_NORESET
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:65:warning: symbol value '' invalid for MONITOR_BAUD_9600B
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:66:warning: symbol value '' invalid for MONITOR_BAUD_57600B
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:68:warning: symbol value '' invalid for MONITOR_BAUD_230400B
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:69:warning: symbol value '' invalid for MONITOR_BAUD_921600B
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:70:warning: symbol value '' invalid for MONITOR_BAUD_2MB
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:71:warning: symbol value '' invalid for MONITOR_BAUD_OTHER
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:79:warning: symbol value '' invalid for PARTITION_TABLE_TWO_OTA
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:80:warning: symbol value '' invalid for PARTITION_TABLE_CUSTOM
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:90:warning: symbol value '' invalid for OPTIMIZATION_LEVEL_RELEASE
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:102:warning: symbol value '' invalid for ESP32_APPTRACE_DEST_TRAX
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:104:warning: symbol value '' invalid for ESP32_APPTRACE_ENABLE
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:110:warning: symbol value '' invalid for AWS_IOT_SDK
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:114:warning: symbol value '' invalid for BLUEDROID_MEM_DEBUG
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:115:warning: symbol value '' invalid for CLASSIC_BT_ENABLED
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:119:warning: symbol value '' invalid for BT_STACK_NO_LOG
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:128:warning: symbol value '' invalid for ESP32_DEFAULT_CPU_FREQ_80
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:129:warning: symbol value '' invalid for ESP32_DEFAULT_CPU_FREQ_160
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:134:warning: symbol value '' invalid for MEMMAP_TRACEMEM
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:135:warning: symbol value '' invalid for MEMMAP_TRACEMEM_TWOBANKS
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:136:warning: symbol value '' invalid for ESP32_TRAX
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:138:warning: symbol value '' invalid for ESP32_ENABLE_COREDUMP_TO_FLASH
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:139:warning: symbol value '' invalid for ESP32_ENABLE_COREDUMP_TO_UART
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:141:warning: symbol value '' invalid for ESP32_ENABLE_COREDUMP
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:142:warning: symbol value '' invalid for TWO_UNIVERSAL_MAC_ADDRESS
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:156:warning: symbol value '' invalid for NEWLIB_NANO_FORMAT
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:158:warning: symbol value '' invalid for CONSOLE_UART_CUSTOM
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:159:warning: symbol value '' invalid for CONSOLE_UART_NONE
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:162:warning: symbol value '' invalid for ULP_COPROC_ENABLED
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:164:warning: symbol value '' invalid for ESP32_PANIC_PRINT_HALT
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:166:warning: symbol value '' invalid for ESP32_PANIC_SILENT_REBOOT
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:167:warning: symbol value '' invalid for ESP32_PANIC_GDBSTUB
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:172:warning: symbol value '' invalid for TASK_WDT_PANIC
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:177:warning: symbol value '' invalid for BROWNOUT_DET_LVL_SEL_1
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:178:warning: symbol value '' invalid for BROWNOUT_DET_LVL_SEL_2
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:179:warning: symbol value '' invalid for BROWNOUT_DET_LVL_SEL_3
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:180:warning: symbol value '' invalid for BROWNOUT_DET_LVL_SEL_4
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:181:warning: symbol value '' invalid for BROWNOUT_DET_LVL_SEL_5
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:182:warning: symbol value '' invalid for BROWNOUT_DET_LVL_SEL_6
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:183:warning: symbol value '' invalid for BROWNOUT_DET_LVL_SEL_7
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:185:warning: symbol value '' invalid for ESP32_TIME_SYSCALL_USE_RTC
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:187:warning: symbol value '' invalid for ESP32_TIME_SYSCALL_USE_FRC1
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:188:warning: symbol value '' invalid for ESP32_TIME_SYSCALL_USE_NONE
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:190:warning: symbol value '' invalid for ESP32_RTC_CLOCK_SOURCE_EXTERNAL_CRYSTAL
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:194:warning: symbol value '' invalid for ESP32_XTAL_FREQ_26
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:195:warning: symbol value '' invalid for ESP32_XTAL_FREQ_AUTO
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:202:warning: symbol value '' invalid for SW_COEXIST_ENABLE
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:205:warning: symbol value '' invalid for ESP32_WIFI_STATIC_TX_BUFFER
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:218:warning: symbol value '' invalid for ESP32_PHY_INIT_DATA_IN_PARTITION
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:227:warning: symbol value '' invalid for EMAC_L2_TO_L3_RX_BUF_MODE
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:234:warning: symbol value '' invalid for FATFS_CODEPAGE_437
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:235:warning: symbol value '' invalid for FATFS_CODEPAGE_720
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:236:warning: symbol value '' invalid for FATFS_CODEPAGE_737
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:237:warning: symbol value '' invalid for FATFS_CODEPAGE_771
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:238:warning: symbol value '' invalid for FATFS_CODEPAGE_775
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:239:warning: symbol value '' invalid for FATFS_CODEPAGE_850
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:240:warning: symbol value '' invalid for FATFS_CODEPAGE_852
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:241:warning: symbol value '' invalid for FATFS_CODEPAGE_855
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:242:warning: symbol value '' invalid for FATFS_CODEPAGE_857
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:243:warning: symbol value '' invalid for FATFS_CODEPAGE_860
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:244:warning: symbol value '' invalid for FATFS_CODEPAGE_861
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:245:warning: symbol value '' invalid for FATFS_CODEPAGE_862
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:246:warning: symbol value '' invalid for FATFS_CODEPAGE_863
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:247:warning: symbol value '' invalid for FATFS_CODEPAGE_864
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:248:warning: symbol value '' invalid for FATFS_CODEPAGE_865
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:249:warning: symbol value '' invalid for FATFS_CODEPAGE_866
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:250:warning: symbol value '' invalid for FATFS_CODEPAGE_869
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:251:warning: symbol value '' invalid for FATFS_CODEPAGE_932
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:252:warning: symbol value '' invalid for FATFS_CODEPAGE_936
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:253:warning: symbol value '' invalid for FATFS_CODEPAGE_949
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:254:warning: symbol value '' invalid for FATFS_CODEPAGE_950
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:263:warning: symbol value '' invalid for FREERTOS_CORETIMER_1
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:266:warning: symbol value '' invalid for FREERTOS_CHECK_STACKOVERFLOW_NONE
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:268:warning: symbol value '' invalid for FREERTOS_CHECK_STACKOVERFLOW_CANARY
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:269:warning: symbol value '' invalid for FREERTOS_WATCHPOINT_END_OF_STACK
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:273:warning: symbol value '' invalid for FREERTOS_ASSERT_FAIL_PRINT_CONTINUE
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:274:warning: symbol value '' invalid for FREERTOS_ASSERT_DISABLE
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:276:warning: symbol value '' invalid for ENABLE_MEMORY_DEBUG
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:279:warning: symbol value '' invalid for FREERTOS_LEGACY_HOOKS
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:281:warning: symbol value '' invalid for SUPPORT_STATIC_ALLOCATION
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:285:warning: symbol value '' invalid for FREERTOS_DEBUG_INTERNALS
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:298:warning: symbol value '' invalid for LOG_DEFAULT_LEVEL_NONE
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:299:warning: symbol value '' invalid for LOG_DEFAULT_LEVEL_ERROR
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:300:warning: symbol value '' invalid for LOG_DEFAULT_LEVEL_WARN
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:302:warning: symbol value '' invalid for LOG_DEFAULT_LEVEL_DEBUG
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:303:warning: symbol value '' invalid for LOG_DEFAULT_LEVEL_VERBOSE
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:310:warning: symbol value '' invalid for L2_TO_L3_COPY
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:313:warning: symbol value '' invalid for LWIP_SO_REUSE
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:314:warning: symbol value '' invalid for LWIP_SO_RCVBUF
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:316:warning: symbol value '' invalid for LWIP_IP_FRAG
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:317:warning: symbol value '' invalid for LWIP_IP_REASSEMBLY
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:343:warning: symbol value '' invalid for PPP_SUPPORT
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:355:warning: symbol value '' invalid for MBEDTLS_DEBUG
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:359:warning: symbol value '' invalid for MBEDTLS_HARDWARE_SHA
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:361:warning: symbol value '' invalid for MBEDTLS_HAVE_TIME_DATE
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:432:warning: symbol value '' invalid for OPENSSL_DEBUG
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:434:warning: symbol value '' invalid for OPENSSL_ASSERT_EXIT
+/home/li/esp32/workspace/blue_scan/blue_scan/sdkconfig:445:warning: symbol value '' invalid for SPI_FLASH_ENABLE_COUNTERS
+make: *** 没有规则可以创建“/home/li/esp32/workspace/blue_scan/blue_scan/build/bootloader/bootloader.bin”需要的目标“/home/li/esp32/workspace/blue_scan/blue_scan/build/include/config/auto.conf”。 停止。
+
+12:58:55 Build Finished (took 2s.773ms)
+

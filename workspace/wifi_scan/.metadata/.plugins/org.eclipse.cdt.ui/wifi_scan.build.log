@@ -1,0 +1,7 @@
+10:31:08 **** Build of configuration Default for project wifi_scan ****
+make all 
+make[1]: *** 没有规则可以创建“main.o”需要的目标“/home/li/esp32/workspace/wifi_scan/esp-idf-template/main/./main.c”。 停止。
+make: *** [main-build] 错误 2
+
+10:31:09 Build Finished (took 1s.270ms)
+

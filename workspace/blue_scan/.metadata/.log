@@ -1,0 +1,16 @@
+!SESSION 2017-09-28 12:18:38.146 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-28 12:20:43.799
+!MESSAGE Indexed 'blue_scan' (1 sources, 1 headers) in 3.45 sec: 45 declarations; 126 references; 6 unresolved inclusions; 0 syntax errors; 83 unresolved names (33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-28 12:24:42.760
+!MESSAGE Indexed 'blue_scan' (1 sources, 78 headers) in 8.22 sec: 3,903 declarations; 4,000 references; 18 unresolved inclusions; 2 syntax errors; 84 unresolved names (1.1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-28 16:06:15.557
+!MESSAGE Indexed 'blue_scan' (1 sources, 78 headers) in 7.33 sec: 3,908 declarations; 4,010 references; 18 unresolved inclusions; 2 syntax errors; 84 unresolved names (1%)
